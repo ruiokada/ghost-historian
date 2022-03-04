@@ -1,0 +1,16 @@
+{
+  "name": "ghost-historian",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm run archive && npm run log",
+    "archive": "node generate-archive.js",
+    "log": "node generate-log.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@tryghost/admin-api": "^1.3.1"
+  }
+}
